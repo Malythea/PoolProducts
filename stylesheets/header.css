@@ -1,0 +1,47 @@
+.headdiv {
+	margin: 0 0 0 0;
+	position: relative;
+	height: 150px;
+}
+
+.headdiv img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	width: 10%;
+	height: auto;
+	min-width: 100px;
+	
+	max-width: 479px;
+}
+
+.headdiv p {
+	height: 7%;
+	width: 100%;
+	background-color: #10284C;	
+	margin: 0;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+#search {
+	position: absolute;
+	right: 2%;
+	margin-top: 1%;
+	border-radius: 15px;
+}
+
+input[type=text] {
+    width: 20%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 30%;
+}
