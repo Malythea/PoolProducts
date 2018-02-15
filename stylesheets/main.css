@@ -14,6 +14,11 @@ body {
 	position: relative;
 }
 
+body p {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
 #footer {
     padding: 0 0 0 0;	
     margin: 0 0 0 0;
