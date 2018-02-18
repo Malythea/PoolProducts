@@ -14,9 +14,16 @@ body {
 	position: relative;
 }
 
-body p {
-	margin-left: 2%;
-	margin-right: 2%;
+.content {
+	margin-left: 6%;
+	margin-right: 6%;
+}
+/* Use pixels when we are too small to ensure no overlap from side menu */
+@media screen and ( max-width: 650px ){
+    .content {
+        margin-left: 45px;
+		margin-right: 45px;
+    }
 }
 
 #footer {
