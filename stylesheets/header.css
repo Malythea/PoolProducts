@@ -1,40 +1,38 @@
 .headdiv {
 	margin: 0 0 0 0;
 	position: relative;
-	height: 5%;
-	margin-bottom: 8%;
-	width: 100%;
-	background-color: #10284C;	
+	margin-bottom: 1%;
+	width: 100%;	
+	text-align: center;
 }
 
 .headdiv img {
-	position: absolute;
-	left: 0px;
-	top: 0px;
+	position: relative;
+	display: inline-block;
 	z-index: 1;
-	width: 9%;
+	width: 100%;
 	height: auto;
-	min-width: 120px;
-	max-width: 400px;
+	min-width: 200px;
+	max-width: 500px;
 }
 
 .headdiv p {
-	height: 5%;
-	margin-top: 0%;
-	margin-left: 15%;
-	margin-right: 15%;
+	height: 10%;
+	width: 100%;
+	margin: 0 0 0 0;
 	padding-top: 3px;
 	padding-bottom: 3px;
 	text-align: center;
-	font-size: 2vmin;
+	font-size: 14px;
 	font-weight: bold;
 	color: white;
+	background-color: #10284C;	
 }
 
 #search {
 	position: relative;
 	float: right;
-	margin-top: 2%;
+	margin-top: 4px;
 	margin-right: 1%;
 	border-radius: 15px;
 }
@@ -48,3 +46,9 @@ input[type=text] {
 input[type=text]:focus {
     width: 30%;
 }
+
+#footer a, a:visited, a:hover {
+	color: white;
+	text-decoration: none;
+}
+
