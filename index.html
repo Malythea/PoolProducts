@@ -7,22 +7,67 @@
 		<meta name="Author" content="Malythea">
 		<link rel="stylesheet" href="stylesheets/main.css">
 		<link rel="stylesheet" href="stylesheets/header.css">
+		<link rel="stylesheet" href="stylesheets/social.css">
+		<link rel="stylesheet" href="stylesheets/navigation.css">
+		<script src="scripts/navigation.js"></script>
 	</head>
 	
 	<body>
 	
 		<div class="headdiv">
-			<img src="images/websiteLogo.png">
-			<p>Free Shipping on all orders across our website within Australia!</p>
-			<input id="search" type="text" placeholder="Search...">
+			<p>Free Shipping on all orders across our website! Call 1844 IPP POOL!</p>
+			<img src="images/IPPAmerica.png">
+			<!-- Navigation Bar -->
+			<div class="topNavigation" id="nav">
+				<a href="index.html" class="active">HOME</a>
+				<a href="#">OUR PRODUCTS</a>
+				<a href="#">HOW THEY WORK</a>
+				<a href="#">NEED HELP?</a>
+				<a href="#">ABOUT US</a>				
+				<a href="javascript:void(0);" class="icon" onclick="changeNavigationBarType()">&#9776;</a>
+			</div>			
 		</div>
+		
+		<input id="search" type="text" placeholder="Search...">
+		
+		<!-- Social Media - side bar -->
+		<div class="sticky-container">
+			<ul class="sticky">
+				<li>
+					<img src="images/youtube.png" width="32" height="32">
+					<p>
+						<a href="http://www.youtube.com/codexworld" target="_blank">Subscribe on<br>YouTube</a>
+					</p>
+				</li>	
+				<li>
+					<img src="images/facebook.png" width="32" height="32">
+					<p>
+						<a href="https://www.facebook.com/PoolmaidUSA" target="_blank">Like Us on<br>Facebook</a>
+					</p>
+				</li>			
+				<li>
+					<img src="images/twitter.png" width="32" height="32">
+					<p>
+						<a href="https://twitter.com/ippamerica" target="_blank">Follow Us on<br>Twitter</a>
+					</p>
+				</li>
+				<li>
+					<img src="images/pinterest.png" width="32" height="32">
+					<p>
+						<a href="https://www.pinterest.com.au/PoolmaidIPP/" target="_blank">Follow Us on<br>Pinterest</a>
+					</p>
+				</li>
+			</ul>
+		</div>		
+		
+		 <button onclick="topFunction()" id="quickNav" title="Go to Top">Top</button> 
 		
 		<p align=center>Integrated Pool Products are manufacturers of a broad range of high quality, precision engineered pool products. Our products are manufactured in accordance with our philosophy of exceptional high standards of design excellence, and are easy to assemble and use.</p>
 	
 		<p style="height:90%;"></p>	
 	
 		<div id="footer">
-			<p>©2018 Integrated Pool Products Australia - Design by Malythea</p>
+			<p>©2018 Integrated Pool Products America - Design by <a id="Malythea" href="https://github.com/Malythea">Malythea</a></p>
 		</div>
 	</body>
 </html>
