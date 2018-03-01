@@ -5,4 +5,4 @@ The purpose is to :
 - Improve sales by making the cart more visible and to appear more like a shop
 - Improve responsive views, especially in smaller screens
 - Alter menu displays
-- condense the number of pages to reduce the navigation bar taking up too much space
+- Condense the number of pages to reduce the navigation bar taking up too much space
