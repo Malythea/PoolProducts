@@ -9,3 +9,5 @@ The purpose is to :
 
 Update : 
 The client was happy with the existing proposal and wanted to integrate this into Shopify. Code Extracts from this propsal were taken and added to the Shopify development store. 
+
+To view the website before the changes - all screenshots are inside the "before_images" folder.
